@@ -30,7 +30,8 @@ for (let key in person3){
                 }
             }else if (item instanceof Object){
                 for (foodkey in item){
-                    console.group(item[foodkey])
+                    console.log(foodkey)
+                    console.log(item[foodkey])
                 }
             }else{
                 console.log(item)
